@@ -1,0 +1,299 @@
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+/* shared across some sections */
+
+
+.section-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    max-width: 1440px;
+
+}
+
+h3 {
+    font-size: 36px;
+    margin-top: 0;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+
+/* first box*/
+
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+#firstwrapper{
+    background: #1f2937
+}
+
+#thirdwrapper{
+background: #e5e7eb;
+}
+
+#first{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 1rem 14rem 7rem;
+    gap: 7rem;
+    max-width: 1440px;
+
+
+}
+
+#header,
+#god {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#headerlogo{
+    font-size: 24px;
+    font-weight: 600;
+    user-select: none;
+    
+}
+
+#headernav {
+    display: flex;
+    gap: 14px
+}
+
+#headernav li{
+    user-select: none;
+    color: #e5e7eb
+
+}
+
+#headernav li:hover{
+    cursor: pointer;
+}
+
+#godleft h2,
+#godleft button,
+#headerlogo{
+    color: white;
+}
+
+#god{
+    gap: 4px;
+}
+
+#godleft h2{
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+
+#godleft,
+#godright{
+    flex: 1 1 0;
+}
+
+
+#godright img{
+    flex: 1;
+    object-fit: cover;
+    max-height: 214px;
+    border-radius: 7px;
+}
+
+#first li,
+#first p,
+#godright img{
+    color: hsl(0%, 0%, 92%)
+}
+
+
+
+
+/* second box */
+#second h3{
+    color: black;
+    margin-bottom: 3rem;
+
+}
+
+#second {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+.randominfobox {
+    width: 170px;
+    height: 170px;
+    border-radius: 7px;
+  }
+#randominfowrapper {
+    display: flex;
+    gap: 2rem;
+  }
+
+.randominfo li {
+    color: hsl(0, 0%, 38%);
+  }
+  
+.randominfo {
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 170px;
+    text-align: center;
+  }
+
+#box1 {
+    background-color: rgb(34, 34, 41);
+  }
+
+#box2 {
+    background-color: rgb(34, 34, 41);
+  }
+  
+#box3 {
+    background-color: rgb(34, 34, 41);
+  }
+  
+#box4 {
+    background-color: rgb(34, 34, 41);
+  }
+
+/* third box */
+
+.section-center#third{
+    display: flex;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    scroll-padding-top: 6rem;
+    scroll-padding-bottom: 5rem;
+    gap: 2rem;
+}
+.section-center#third h3 {
+    margin-bottom: 0;
+    font-weight: 500;
+  }
+  
+  .section-center#third h4 {
+    margin: 0;
+    align-self: flex-end;
+  }
+
+
+/* fourth box */
+
+.section-center#fourth{
+    padding-inline: 14px;
+    margin: auto;
+}
+
+#cta{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-inline: 10px;
+    padding: 6px;
+    background-color: #3882f6;
+    border-radius: 7px;
+    color: white;
+    margin-bottom: 6px;
+    width: 50%;
+}
+
+#cta-left h4{
+    margin: 0;
+}
+
+#cta-left p{
+    margin: 0;
+}
+
+#cta-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+#cta-button {
+    background-color: inherit;
+    color: white;
+    padding: 1rem;
+    border: 2px solid white;
+    border-radius: 16px;
+    padding-inline: 2rem;
+  }
+#signup {
+    padding-inline: 2rem;
+    padding-block: 7px;
+    outline: none;
+    border-radius: 7px;
+    font-weight: 500;
+    background-color:#3882f6;
+    color: white;
+  }
+
+
+
+.signup-god{
+    border: 0;
+}
+
+#signup:hover {
+    cursor: pointer;
+  }
+  
+.signup-cta {
+    border: 2px solid white;
+  }
+  
+#signup:hover {
+    background-color: white;
+    color: #3882f6;
+  }
+
+
+/* footer box */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: #ed4c6c;
+}
+
+#footer{
+    gap: 7px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 14px;
+    padding-block: 12px;
+
+}
